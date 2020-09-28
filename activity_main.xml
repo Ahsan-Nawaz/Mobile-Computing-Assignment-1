@@ -20,61 +20,21 @@
         app:menu="@menu/bottom_nav_menu" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="282dp"
+        android:layout_height="84dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="34dp" />
-
-    <EditText
-        android:id="@+id/editTextTextEmailAddress3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        android:text="email"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="109dp" />
-
-    <EditText
-        android:id="@+id/editTextPhone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="phone"
-        android:text="phone"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="187dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPostalAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPostalAddress"
-        android:text="postal address"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="266dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword"
-        android:text="password"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="353dp" />
+        android:text="Enter Code send on your email"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="160dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sign up"
-        tools:layout_editor_absoluteX="285dp"
-        tools:layout_editor_absoluteY="496dp" />
+        android:text="Re-send"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="300dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
