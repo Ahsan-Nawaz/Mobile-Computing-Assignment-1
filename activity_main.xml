@@ -20,21 +20,31 @@
         app:menu="@menu/bottom_nav_menu" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
-        android:layout_width="282dp"
-        android:layout_height="84dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Enter Code send on your email"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="160dp" />
-
-    <Button
-        android:id="@+id/button4"
+        android:id="@+id/editTextTextPersonName5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Re-send"
-        tools:layout_editor_absoluteX="249dp"
-        tools:layout_editor_absoluteY="300dp" />
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter New Password"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="287dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter new password again"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="303dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
